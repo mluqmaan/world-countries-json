@@ -30,3 +30,16 @@ The JSON file can be used for various purposes such as building country pickers,
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/world-countries-json.git
+
+2. Access the countries.json file in your project.
+
+3. Example usage in JavaScript:
+   ```bash
+   const countries = require('./countries.json');
+   countries.forEach(country => {
+    console.log(`Country: ${country.name}, Currency: ${country.currency.name}`);
+    });
+
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project as long as the original copyright notice is included. See the `LICENSE` file for more details.
